@@ -11,16 +11,16 @@ ExpressJS: It is essentially a back-end web-based framework that allows you to b
 ReactJS: The frontend library would be React. Redux would be used for state management. For the basic design of the interface, we would employ the React Bootstrap library.
 NodeJS: It is, by definition, a JavaScript runtime that is built on the well-known Chrome’s V8 JS engine and is known for being lightweight and efficient due to its use of an event-driven and non-blocking input-output model.
 ## The primary features of this ecommerce website application
-   # So, the features that we would include in the application that we would be developing are as follows.
-   # Display the cart’s total bill and update it whenever the cart is updated by the user.
-   # We are storing the JWT in Local Storage so that only logged-in users can purchase items.
-   # Option to pay and checkout, thereby creating an order and emptying the cart.
-   # Login and registration
-   # Purchase Product.
-   # Check Purchase Status.
-   # PayPal Payment Option
-   # User Reviews
-   # Extensive Product Information
-   # Find-in-Store
-   # Update Profile
-   # Detailed Shipping Information
+    So, the features that we would include in the application that we would be developing are as follows.
+    Display the cart’s total bill and update it whenever the cart is updated by the user.
+    We are storing the JWT in Local Storage so that only logged-in users can purchase items.
+    Option to pay and checkout, thereby creating an order and emptying the cart.
+    Login and registration
+    Purchase Product.
+    Check Purchase Status.
+    PayPal Payment Option
+    User Reviews
+    Extensive Product Information
+    Find-in-Store
+    Update Profile
+    Detailed Shipping Information
