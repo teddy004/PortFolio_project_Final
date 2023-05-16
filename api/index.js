@@ -12,12 +12,18 @@ const stripeRoute = require("./routes/stripe");
 const cors = require("cors");
 
 
-mongoose
-  .connect(process.env.MONGO_URL)
-  .then(() => console.log("DB Connection Successfull!"))
+/*mongoose.connect(process.env.MONGO_URL)
+    .then(() => console.log("DB Connection Successfull!"))
+    .catch((err) => {
+      console.log(err);
+    });
+*/
+//Connecting to database
+mongoose.connect('mongodb://localhost:27017').then(() => console.log("DB Connection Successfull!"))
   .catch((err) => {
     console.log(err);
   });
+  
 
 app.use(cors());
 app.use(express.json());
