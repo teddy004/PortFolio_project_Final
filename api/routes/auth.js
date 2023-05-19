@@ -33,6 +33,7 @@ router.post("/login", async (req, res) => {
       user.password,
       process.env.PASS_SEC
     );
+
     const OriginalPassword = hashedPassword.toString(CryptoJS.enc.Utf8);
 
     OriginalPassword !== req.body.password &&
@@ -54,5 +55,6 @@ router.post("/login", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 module.exports = router;

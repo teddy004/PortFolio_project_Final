@@ -19,7 +19,7 @@ const cors = require("cors");
     });
 */
 //Connecting to database
-mongoose.connect('mongodb://localhost:27017').then(() => console.log("DB Connection Successfull!"))
+mongoose.connect('mongodb://localhost:27017/shop').then(() => console.log("DB Connection Successfull!"))
   .catch((err) => {
     console.log(err);
   });
